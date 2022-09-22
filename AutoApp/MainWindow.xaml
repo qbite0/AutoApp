@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AutoApp"
         mc:Ignorable="d"
-        Title="Водители" Height="226.333" Width="442" Background="#FFB5D5CA"
+        Title="Авторизация" Height="226.333" Width="442" Background="#FFB5D5CA"
         Loaded="Window_Loaded">
     <Grid>
         <TextBox x:Name="username" Height="23" Margin="269,36,28,0" TextWrapping="Wrap" VerticalAlignment="Top"/>

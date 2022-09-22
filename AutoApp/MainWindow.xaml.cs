@@ -47,7 +47,7 @@ namespace AutoApp
             int count = (int)cmd.ExecuteScalar();
             if (count == 1)
             {
-                Drivers drivers = new Drivers();
+                Drivers drivers = new Drivers(connection);
                 drivers.Owner = this;
                 Hide();
                 drivers.Show();

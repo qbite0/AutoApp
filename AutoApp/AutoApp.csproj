@@ -110,6 +110,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Driver.cs" />
     <Compile Include="Drivers.xaml.cs">
       <DependentUpon>Drivers.xaml</DependentUpon>
     </Compile>

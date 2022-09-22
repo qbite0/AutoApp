@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AutoApp"
         mc:Ignorable="d"
-        Title="Drivers" Height="450" Width="800" Deactivated="Window_Deactivated">
+        Title="Водители" Height="450" Width="800" Deactivated="Window_Deactivated"
+        Loaded="Window_Loaded">
     <Grid>
-        
+        <DataGrid x:Name="driversList" Margin="10,10,0,62"/>
+
     </Grid>
 </Window>
