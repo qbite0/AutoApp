@@ -17,7 +17,7 @@ namespace AutoApp
         public Drivers(SqlConnection conn)
         {
             connection = conn;
-            logout_timer.Interval = new TimeSpan(0, 0, 10);
+            logout_timer.Interval = new TimeSpan(0, 1, 0);
             logout_timer.Tick += Logout;
             InitializeComponent();
 
@@ -64,6 +64,11 @@ namespace AutoApp
                 }
                 driversList.ItemsSource = list;
             }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            new DriversAdd(connection).Show();
         }
     }
 }

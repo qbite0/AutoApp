@@ -102,6 +102,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="DriversAdd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -113,6 +117,9 @@
     <Compile Include="Driver.cs" />
     <Compile Include="Drivers.xaml.cs">
       <DependentUpon>Drivers.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DriversAdd.xaml.cs">
+      <DependentUpon>DriversAdd.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
