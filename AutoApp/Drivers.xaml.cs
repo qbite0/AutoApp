@@ -32,7 +32,8 @@ namespace AutoApp
 
         private void Logout(object sender, EventArgs e)
         {
-
+            Owner.Show();
+            Hide();
         }
 
         private void Window_Deactivated(object sender, EventArgs e)
